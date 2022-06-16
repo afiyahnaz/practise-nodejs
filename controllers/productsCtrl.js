@@ -9,8 +9,8 @@ const get = async (req,res) =>{
            res.status(200);
            res.json(products);
         } catch (err) {
-        res.status(500);
-        res.send('internal server error');
+            res.status(500);
+            res.send('internal server error');
 
     }   
 };
